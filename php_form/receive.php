@@ -17,7 +17,6 @@ if ($method === 'GET') {
 $name = trim($name);
 
 // This prevents the browser from interpreting the submitted value as HTML.
-// Ex. htmlspecialchars("<b>Alex</b>") ผลลัพธ์คือ &lt;b&gt;Alex&lt;/b&gt;
 $safeName = htmlspecialchars($name, ENT_QUOTES, 'UTF-8');
 $safeMethod = htmlspecialchars($method, ENT_QUOTES, 'UTF-8');
 ?>
