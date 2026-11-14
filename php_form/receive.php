@@ -24,7 +24,7 @@ $safeMethod = htmlspecialchars($method, ENT_QUOTES, 'UTF-8');
 <html lang="en">
 <head><meta charset="utf-8"><title>PHP Form Receiver</title></head>
 <body style="font-family:Arial,sans-serif;max-width:700px;margin:40px auto">
-  <h1>Received by PHP</h1>
+  <h1>Received by PHP (changed) </h1>
   <p>Request method: <strong><?= $safeMethod ?></strong></p>
   <p>Display name: <strong><?= $safeName ?></strong></p>
   <p>Data is not stored yet — this is only a receiving demonstration.</p>
